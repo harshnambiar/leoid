@@ -1,0 +1,21 @@
+{
+  "name": "leoid",
+  "version": "0.9.9",
+  "description": "Leo Lang Friendly Unique ID Generator",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "author": "harshnambiar@darksunlabs",
+  "license": "MIT",
+  "keywords": [
+    "captcha"
+  ],
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
