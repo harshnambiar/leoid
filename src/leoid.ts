@@ -4,7 +4,7 @@ import { Leoid } from './types';
 // generates Leo friendly unique IDs
 // 
 export function getLeoId(from: string, to: string, count: number): string {
-    if ((from.length != 64) || (to.length != 63)){
+    if ((from.length != 63) || (to.length != 63)){
         return 'improper sender or receiver';
     }
     if ((from.substring(0, 4) != 'aleo') || (to.substring(0, 4) != 'aleo')){
