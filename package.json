@@ -1,6 +1,6 @@
 {
   "name": "leoid",
-  "version": "0.9.9",
+  "version": "0.9.99",
   "description": "Leo Lang Friendly Unique ID Generator",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
